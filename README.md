@@ -8,9 +8,9 @@ Git es un software de línea de comandos que permite realizar un **seguimiento**
 
 Un proyecto Git se puede concebir como compuesto por tres partes:
 
-	+ **Directorio de Trabajo (Working Directory).** Donde se realiza todo el trabajo: crear, editar, eliminar y organizar archivos.
-	+ **Área de Preparación (Staging Area).** Donde se listan los cambios realizados en el directorio de trabajo.
-	+ **Repositorio (Repository).** Donde se almacenan permanentemente esos cambios como diferentes versiones del proyecto.
++ **Directorio de Trabajo (Working Directory).** Donde se realiza todo el trabajo: crear, editar, eliminar y organizar archivos.
++ **Área de Preparación (Staging Area).** Donde se listan los cambios realizados en el directorio de trabajo.
++ **Repositorio (Repository).** Donde se almacenan permanentemente esos cambios como diferentes versiones del proyecto.
 
 ## ¿Qué es GitHub?
 
