@@ -31,4 +31,4 @@ A continuación, se desbriben algunos de los comandos utilizados en Git:
 - **git init:** permite inicializar un repositorio Git vacío. Crea un directorio .git con todas las herramientas y datos necesarios para gestionar las versiones del proyecto.
 - **git status:** permite obtener el estado actual, incluyendo la confirmación actual, los archivos modificados y los archivos nuevos que no esté siendo rastreado.
 - **git add <nombre_archivo>:** permite añadir el archivo especificado al área de preparación.
-- **git commit -m "<mensaje>":** permite almacenar permanentemente los cambios que se encuentran en el área de preparación dentro del repositorio.
+- **git commit -m "<mensaje_confirmación>":** permite almacenar permanentemente los cambios que se encuentran en el área de preparación dentro del repositorio.
