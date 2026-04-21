@@ -12,6 +12,10 @@ Un proyecto Git se puede concebir como compuesto por tres partes:
 + **Área de Preparación (Staging Area).** Donde se listan los cambios realizados en el directorio de trabajo.
 + **Repositorio (Repository).** Donde se almacenan permanentemente esos cambios como diferentes versiones del proyecto.
 
+El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
+
+![alt Flujo de Trabajo de Git](https://dungeonofbits.com/images/tranajarcongit1.jpg)
+
 El flujo de trabajo en Git consiste en modificar archivos dentro del directorio de trabajo, añadirlos al área de preparación y luego registrar los cambios en un repositorio. En este sistema, los cambios se almacenan mediante confirmaciones, que actúan como instantáneas de una rama específica dentro del repositorio. Estas confirmaciones permiten mantener un registro del desarrollo de todas las ramas, creando un historial detallado de la evolución del proyecto en Git.
 
 ## ¿Qué es GitHub?
