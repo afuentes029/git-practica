@@ -4,6 +4,8 @@
 
 Git es un software de línea de comandos que permite realizar un **seguimiento** de los cambios realizados en un proyecto a lo largo del tiempo. Su funcionamiento se basa en registrar los cambios que se realizan en un proyecto y permitir que un programador los consulte cuando sea necesario.
 
+> Diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones informáticas cuando estas tienen un gran número de archivos de código fuente.
+
 ### Flujo de Trabajo de Git
 
 Un proyecto Git se puede concebir como compuesto por tres partes:
@@ -29,4 +31,4 @@ A continuación, se desbriben algunos de los comandos utilizados en Git:
 - **git init:** permite inicializar un repositorio Git vacío. Crea un directorio .git con todas las herramientas y datos necesarios para gestionar las versiones del proyecto.
 - **git status:** permite obtener el estado actual, incluyendo la confirmación actual, los archivos modificados y los archivos nuevos que no esté siendo rastreado.
 - **git add <nombre_archivo>:** permite añadir el archivo especificado al área de preparación.
-- **git commit -m "<mensaje de confirmación>":** permite almacenar permanentemente los cambios que se encuentran en el área de preparación dentro del repositorio.
+- **git commit -m "<mensaje>":** permite almacenar permanentemente los cambios que se encuentran en el área de preparación dentro del repositorio.
