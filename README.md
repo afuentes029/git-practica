@@ -14,10 +14,19 @@ Un proyecto Git se puede concebir como compuesto por tres partes:
 
 El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
 
-![alt Flujo de Trabajo de Git](https://dungeonofbits.com/images/tranajarcongit1.jpg)
+![Flujo de Trabajo de Git](https://dungeonofbits.com/images/tranajarcongit1.jpg)
 
 El flujo de trabajo en Git consiste en modificar archivos dentro del directorio de trabajo, añadirlos al área de preparación y luego registrar los cambios en un repositorio. En este sistema, los cambios se almacenan mediante confirmaciones, que actúan como instantáneas de una rama específica dentro del repositorio. Estas confirmaciones permiten mantener un registro del desarrollo de todas las ramas, creando un historial detallado de la evolución del proyecto en Git.
 
 ## ¿Qué es GitHub?
 
 GitHub es un sitio web como un **servicio** que facilita el desarrollo de software al permitirte almacenar tu código en contenedores, llamados repositorios , y al realizar un seguimiento de los cambios realizados en tu código. Además, ofrece un servicio de alojamiento y herramientas para compilar, probar e implementar código.
+
+## Comandos
+
+A continuación, se desbriben algunos de los comandos utilizados en Git:
+
+- **git init:** permite inicializar un repositorio Git vacío. Crea un directorio .git con todas las herramientas y datos necesarios para gestionar las versiones del proyecto.
+- **git status:** permite obtener el estado actual, incluyendo la confirmación actual, los archivos modificados y los archivos nuevos que no esté siendo rastreado.
+- **git add <nombre_archivo>:** permite añadir el archivo especificado al área de preparación.
+- **git commit -m "<mensaje de confirmación>":** permite almacenar permanentemente los cambios que se encuentran en el área de preparación dentro del repositorio.
