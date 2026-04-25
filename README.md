@@ -20,7 +20,7 @@ Un proyecto Git se puede concebir como compuesto por tres partes:
 
 + **Directorio de Trabajo (Working Directory).** Donde se realiza todo el trabajo: crear, editar, eliminar y organizar archivos.
 + **Área de Preparación (Staging Area).** Donde se listan los cambios realizados en el directorio de trabajo.
-+ **Repositorio (Repository).** Donde se almacenan permanentemente esos cambios como diferentes versiones del proyecto.
++ **Repositorio (Repository).** Donde se almacenan permanentemente los cambios como diferentes versiones del proyecto.
 
 El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
 
