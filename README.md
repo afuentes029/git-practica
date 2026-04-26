@@ -40,7 +40,7 @@ El flujo de trabajo de Git consiste en modificar archivos en el directorio de tr
 
 En conjunto, las confirmaciones representan el historial de crecimiento de las ramas en un repositorio Git. La confirmación más reciente se considera directamente relacionada con el puntero de la rama actual.
 
-### Cómo Comprobar el Estado de un Repositorio Git
+### *Cómo Comprobar el Estado de un Repositorio Git*
 
 El comando git status se utiliza en un repositorio Git para obtener su estado actual, incluyendo la confirmación actual, los archivos modificados y los archivos nuevos que no esté siendo rastreado por Git.
 
@@ -51,3 +51,15 @@ Para verificar el estado de los cambios realizados, ejecute el siguiente comando
 	git status
 
 Podrás ver el estado del directorio de trabajo y el área de preparación. Indica qué archivos no están bajo seguimiento (mostrados en rojo) y cuáles están bajo seguimiento y preparados para su confirmación (mostrados en verde). Los archivos en verde se encuentran en el área de preparación y serán incluidos en el próximo commit.
+
+### *Agregar Cambios al Área de Preparación*
+
+El comando git add se utiliza para agregar los cambios del directorio de trabajo al área de preparación. Una vez que los cambios se hayan preparado, puedes usar el comando git commit para guardarlos de forma permanente en el repositorio.
+
+Para agregar un archivo al área de preparación, ejecute el siguiente comando:
+
+	git add filename
+
+La palabra filename se refiere al nombre del archivo que está editando, como por ejemplo scene-1.txt.
+
+Este comando ofrece a los desarrolladores la posibilidad de elegir qué cambios desean registrar, proporcionando un control preciso sobre el historial de versiones y permitiendo realizar confirmaciones más organizadas y coherentes en cualquier flujo de trabajo de Git.
