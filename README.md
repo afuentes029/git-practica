@@ -39,3 +39,15 @@ El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
 El flujo de trabajo de Git consiste en modificar archivos en el directorio de trabajo, agregarlos al área de preparación y luego guardar los cambios en un repositorio Git. En este sistema, los cambios se almacenan mediante confirmaciones (commits), que actúan como instantáneas de una rama específica en un repositorio.
 
 En conjunto, las confirmaciones representan el historial de crecimiento de las ramas en un repositorio Git. La confirmación más reciente se considera directamente relacionada con el puntero de la rama actual.
+
+### Cómo Comprobar el Estado de un Repositorio Git
+
+El comando git status se utiliza en un repositorio Git para obtener su estado actual, incluyendo la confirmación actual, los archivos modificados y los archivos nuevos que no esté siendo rastreado por Git.
+
+La salida del comando puede variar considerablemente y a menudo incluye mensajes útiles para guiar al usuario en la gestión de su repositorio. Por ejemplo, mostrará al usuario los archivos que confirmaría ejecutando git commit y los que podría confirmar ejecutando git add antes de ejecutar git commit.
+
+Para verificar el estado de los cambios realizados, ejecute el siguiente comando:
+
+	git status
+
+Podrás ver el estado del directorio de trabajo y el área de preparación. Indica qué archivos no están bajo seguimiento (mostrados en rojo) y cuáles están bajo seguimiento y preparados para su confirmación (mostrados en verde). Los archivos en verde se encuentran en el área de preparación y serán incluidos en el próximo commit.
