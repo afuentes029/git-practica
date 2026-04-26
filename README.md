@@ -1,4 +1,4 @@
-﻿# Curso Práctico de Git
+﻿# Aprende Git. Introducción
 
 ## Programa de Estudios
 
@@ -34,6 +34,8 @@ Un proyecto Git se puede concebir como compuesto por tres partes:
 
 El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
 
-![Flujo de Trabajo de Git](https://dungeonofbits.com/images/tranajarcongit1.jpg)
+![Flujo de Trabajo de Git](https://media.licdn.com/dms/image/v2/D4D22AQHe0747v5fyCg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1719818487506?e=2147483647&v=beta&t=u6BghJ8p6TWBe5JSxkEa6dpkccvgpHyXAjCI2-OrzJA)
 
-El flujo de trabajo en Git consiste en modificar archivos dentro del directorio de trabajo, añadirlos al área de preparación y luego registrar los cambios en un repositorio. En este sistema, los cambios se almacenan mediante confirmaciones, que actúan como instantáneas de una rama específica dentro del repositorio. Estas confirmaciones permiten mantener un registro del desarrollo de todas las ramas, creando un historial detallado de la evolución del proyecto en Git.
+El flujo de trabajo de Git consiste en modificar archivos en el directorio de trabajo, agregarlos al área de preparación y luego guardar los cambios en un repositorio Git. En este sistema, los cambios se almacenan mediante confirmaciones (commits), que actúan como instantáneas de una rama específica en un repositorio.
+
+En conjunto, las confirmaciones representan el historial de crecimiento de las ramas en un repositorio Git. La confirmación más reciente se considera directamente relacionada con el puntero de la rama actual.
