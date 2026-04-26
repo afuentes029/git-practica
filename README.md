@@ -8,13 +8,23 @@
 
 ## Flujo de Trabajo Básico de Git
 
-## *¿Qué es Git?*
+### *¿Qué es Git?*
 
 Git es un software de línea de comandos que permite realizar un **seguimiento** de los cambios realizados en un proyecto a lo largo del tiempo. Su funcionamiento se basa en registrar los cambios que se realizan en un proyecto y permitir que un programador los consulte cuando sea necesario.
 
 > Diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones informáticas cuando estas tienen un gran número de archivos de código fuente.
 
-### Flujo de Trabajo de Git
+### *Inicializando un Repositorio Git*
+
+El comando git init inicializa un repositorio Git vacío. Crea un directorio .git con todas las herramientas y datos necesarios para gestionar las versiones del proyecto. Este comando solo debe usarse una vez por proyecto para completar la configuración inicial.
+
+Para configurar la carpeta de un proyecto como un nuevo repositorio Git, ejecute el siguiente comando:
+
+	git init
+
+La palabra init significa inicializar. Al comenzar un nuevo proyecto, este es el primer paso para realizar un seguimiento de los cambios en los archivos y carpetas del proyecto.
+
+### *Flujo de Trabajo de Git*
 
 Un proyecto Git se puede concebir como compuesto por tres partes:
 
