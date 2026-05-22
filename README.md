@@ -63,3 +63,38 @@ Para agregar un archivo al área de preparación, ejecute el siguiente comando:
 La palabra filename se refiere al nombre del archivo que está editando, como por ejemplo scene-1.txt.
 
 Este comando ofrece a los desarrolladores la posibilidad de elegir qué cambios desean registrar, proporcionando un control preciso sobre el historial de versiones y permitiendo realizar confirmaciones más organizadas y coherentes en cualquier flujo de trabajo de Git.
+
+### *Visualización de Diferencias con Git Diff*
+
+El comando git diff mostrará las diferencias entre el directorio de trabajo y el área de preparación en un archivo específico. Úselo antes de agregar contenido nuevo para asegurarse de que está realizando los cambios esperados.
+
+Para verificar las diferencias entre el directorio de trabajo y el área de preparación, ejecute el siguiente comando:
+
+	git diff filename
+
+Aquí, filename es el nombre del archivo. Si el nombre del archivo fuera changes.txt, el comando sería:
+
+	git diff changes.txt
+
+Confirmando tu Código
+
+El comando git commit crea una nueva confirmación que contiene:
+
++ El contenido actual del área de preparación.
++ Un mensaje de registro que describe los cambios en el repositorio.
+
+Un commit es el último paso en nuestro flujo de trabajo de Git. Este proceso almacena permanentemente los cambios que se encuentran en el área de preparación dentro del repositorio. Por lo general, se utiliza en combinación con el comando git add, ya que este último se usa para agregar archivos al área de preparación antes de ser confirmados.
+
+Para realizar la confirmación, ejecute el siguiente comando:
+
+	git commit -m "mensaje de confirmación"
+
+Convenciones estándar para los mensajes de confirmación:
+
++ Debe ir entre comillas doble.
++ Escrito en tiempo presente.
++ Debe ser breve (50 caracteres o menos) cuando se utilice la opción -m.
+
+La opción -m permite ingresar el mensaje de confirmación directamente en la línea de comandos, evitando así la necesidad de abrir el editor de texto para escribirlo.
+
+Las confirmaciones se registran de forma cronológica en el repositorio y se pueden consultar ejecutando el comando git log.
