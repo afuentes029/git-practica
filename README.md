@@ -98,3 +98,18 @@ Convenciones estándar para los mensajes de confirmación:
 La opción -m permite ingresar el mensaje de confirmación directamente en la línea de comandos, evitando así la necesidad de abrir el editor de texto para escribirlo.
 
 Las confirmaciones se registran de forma cronológica en el repositorio y se pueden consultar ejecutando el comando git log.
+
+### *Mostrando los Registros de Confirmación de Git*
+
+El comando git log muestra el historial de confirmaciones de una rama. Para cada confirmación se muestra lo siguiente:
+
+- Un código de 40 caracteres, llamado SHA, que identifica de forma única la confirmación.
+- El autor de la confirmación.
+- La fecha y hora de la confirmación.
+- El mensaje de confirmación.
+
+Para ver los registros de confirmación, ejecute el siguiente comando:
+
+	git log
+
+Este comando es útil cuando se necesita volver a una versión anterior de un proyecto. El código SHA único permite identificar un punto en el historial del proyecto al que se desea regresar.
