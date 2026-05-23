@@ -34,7 +34,7 @@ Un proyecto Git se puede concebir como compuesto por tres partes:
 
 El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
 
-![Flujo de Trabajo de Git](https://media.licdn.com/dms/image/v2/D4E22AQF5D6cmPxZBTQ/feedshare-shrink_800/feedshare-shrink_800/0/1708835401420?e=2147483647&v=beta&t=BvgzqaH8bM4ETA6xbh1Jta3Dnc-lLtZ0jLKnL5USGm4 | height="300")
+![Flujo de Trabajo de Git](https://media.licdn.com/dms/image/v2/D4E22AQF5D6cmPxZBTQ/feedshare-shrink_800/feedshare-shrink_800/0/1708835401420?e=2147483647&v=beta&t=BvgzqaH8bM4ETA6xbh1Jta3Dnc-lLtZ0jLKnL5USGm4)
 
 El flujo de trabajo de Git consiste en modificar archivos en el directorio de trabajo, agregarlos al área de preparación y luego guardar los cambios en un repositorio Git. En este sistema, los cambios se almacenan mediante confirmaciones (commits), que actúan como instantáneas de una rama específica en un repositorio.
 
