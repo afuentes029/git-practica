@@ -34,7 +34,7 @@ Un proyecto Git se puede concebir como compuesto por tres partes:
 
 El siguiente diagrama ilustra las tres partes del flujo de trabajo de Git.
 
-![Flujo de Trabajo de Git](https://media.licdn.com/dms/image/v2/D4E22AQF5D6cmPxZBTQ/feedshare-shrink_800/feedshare-shrink_800/0/1708835401420?e=2147483647&v=beta&t=BvgzqaH8bM4ETA6xbh1Jta3Dnc-lLtZ0jLKnL5USGm4)
+![Flujo de Trabajo de Git](https://media.licdn.com/dms/image/v2/D4E22AQF5D6cmPxZBTQ/feedshare-shrink_800/feedshare-shrink_800/0/1708835401420?e=2147483647&v=beta&t=BvgzqaH8bM4ETA6xbh1Jta3Dnc-lLtZ0jLKnL5USGm4 | height="300")
 
 El flujo de trabajo de Git consiste en modificar archivos en el directorio de trabajo, agregarlos al área de preparación y luego guardar los cambios en un repositorio Git. En este sistema, los cambios se almacenan mediante confirmaciones (commits), que actúan como instantáneas de una rama específica en un repositorio.
 
@@ -113,3 +113,19 @@ Para ver los registros de confirmación, ejecute el siguiente comando:
 	git log
 
 Este comando es útil cuando se necesita volver a una versión anterior de un proyecto. El código SHA único permite identificar un punto en el historial del proyecto al que se desea regresar.
+
+## Operaciones Importantes de Git
+
+### *Introducción al Retroceso*
+
+Al trabajar en un proyecto Git, a veces hacemos cambios que queremos deshacer. Para ello, Git ofrece algunas funciones que nos permiten corregir errores durante la creación del proyecto. En esta sección, aprenderemos algunas de estas funciones.
+
+### *Mostrando el Registro de Confirmación más Reciente*
+
+En Git, la confirmación en el que te encuentras actualmente se conoce como la HEAD commit. HEAD es una referencia simbólica (un puntero) a la confirmación actual o a la última instantánea del directorio de trabajo.
+
+Para ver la confirmación más reciente, ejecute el siguiente comando:
+
+	git show HEAD
+
+La salida de este comando mostrará toda la información que muestra el comando git log para la HEAD commit, además de todos los cambios realizados en los archivos que se confirmaron.
